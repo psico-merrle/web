@@ -1,0 +1,19 @@
+.brief-content {
+    background-image: url('/Dovers.jpg');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: contain;
+    background-position-x: right;
+  }
+
+@media screen and (min-width: 80rem) {
+  .brief-content {
+    background-image:
+      url('/Dover.jpg'),
+      url('/Dovers.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-origin: border-box, border-box;
+    background-size: contain, contain;
+    background-position-x: left, right;
+  }
+}

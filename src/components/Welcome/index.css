@@ -1,0 +1,11 @@
+.welcome-content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-image: url('/background-blur-2.png');
+  position: relative;
+  z-index: 10;
+  color: white;
+  padding: 20px;
+  backdrop-filter: blur(1px);
+}
