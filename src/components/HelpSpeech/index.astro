@@ -1,0 +1,27 @@
+---
+import Section from "../Section.astro";
+import FlowerGirlImage from "../icons/flower-girl.svg";
+---
+
+<Section containerClass="">
+  <h1 class="text-center xl:text-start text-5xl xl:text-7xl min-h-dvh flex items-center justify-center">Tanto los jardineros como las lluvias riegan las flores.</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+    <figure aria-hidden="true" class="hidden md:block sticky top-8 self-start aspect-3/4 rounded-xl">
+      <FlowerGirlImage class="w-full min-h-dvh object-cover" fill="red"/>
+    </figure>
+    <div class="flex flex-col gap-y-16 text-black">
+      <p class="z-10 text-3xl xl:text-4xl font-serif-accent min-h-dvh flex items-center justify-center xl:justify-start">
+        <span class="text-center xl:text-start">Ambos llevan su tiempo.</span>
+      </p>
+      <p class="z-10 text-3xl xl:text-4xl font-serif-accent min-h-dvh flex flex-col gap-y-4">
+        <span class="text-center xl:text-start">Y aun así, nadie critica sus procesos.</span>
+        <span class="text-center xl:text-start">Nadie pregunta si el jardinero se cansa o si regó bien las flores.</span>
+        <span class="text-center xl:text-start">Nadie intenta cuestionar o detener la lluvia. Solo cáe plácida sobre la tierra.</span>
+      </p>
+      <p class="z-10 text-3xl xl:text-4xl font-serif-accent min-h-dvh flex items-center">
+        <span class="text-center xl:text-start">... ¿Por qué habrías de hacerlo tú si pides ayuda?</span>
+      </p>
+    </div>
+  </div>
+
+</Section>

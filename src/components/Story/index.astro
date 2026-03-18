@@ -1,0 +1,25 @@
+---
+import Section from "../Section.astro";
+import GirlImage from "../icons/girl.svg";
+---
+
+<Section containerClass="">
+  <h1 class="text-center xl:text-start text-3xl xl:text-7xl min-h-dvh flex items-center justify-center">¿Por qué es tan difícil pedir ayuda?</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+    <div class="flex flex-col gap-y-16 text-black">
+      <p class="z-10 text-3xl xl:text-4xl font-serif-accent min-h-dvh flex items-center">
+        <span class="text-center xl:text-start">¿Por qué nos cuesta tanto admitir que no podemos con todo?</span>
+      </p>
+      <p class="z-10 text-3xl xl:text-4xl font-serif-accent min-h-dvh flex items-center">
+        <span class="text-center xl:text-start">¿Por qué nos sentimos tan mal por no ser capaces de resolverlo todo por nuestra cuenta?</span>
+      </p>
+      <p class="z-10 text-3xl xl:text-4xl font-serif-accent min-h-dvh flex justify-center xl:justify-start items-center">
+        <span class="text-center xl:text-start">.......</span>
+      </p>
+    </div>
+    <figure aria-hidden="true" class="hidden md:block sticky top-8 self-start aspect-3/4 rounded-xl">
+      <GirlImage class="w-full min-h-dvh object-cover -scale-x-100" fill="red"/>
+    </figure>
+  </div>
+
+</Section>

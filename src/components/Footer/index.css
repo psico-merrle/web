@@ -1,0 +1,18 @@
+.footer-image-section {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-y: bottom;
+  background-image: url('/Tree-Dover.jpg');
+}
+
+
+@media screen and (min-width: 64rem) {
+  .footer-image-section {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
+    background-image: url('/Tree-Dovers.jpg');
+  }
+}

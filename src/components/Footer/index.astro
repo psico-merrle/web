@@ -1,0 +1,32 @@
+---
+import Section from "../Section.astro"
+import "./index.css"
+import { Icon } from 'astro-icon/components';
+---
+
+<footer class="bg-white">
+  <Section containerClass="footer-image-section min-h-dvh relative">
+  </Section>
+  <Section class="bg-brown min-h-105">
+    <div class="max-w-[1440px] h-full mx-auto flex-col-reverse gap-y-8 xl:gap-y-0 xl:flex-row flex items-center justify-between xl:items-start">
+    <p class="text-accent text-sm">&copy; {new Date().getFullYear()} Psic Merrle Gomez. Todos los derechos reservados.</p>
+    <div class="flex flex-col gap-y-8">
+      <h2 class="text-accent text-center">Buscanos en</h2>
+      <div class="flex flex-row xl:flex-col justify-center items-center gap-6">
+        <a href="https://www.instagram.com/psic_merrle_gomez/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-accent hover:text-primary transition-colors flex gap-x-4 items-center">
+          <Icon name="simple-icons:instagram" class="size-7" />
+          <span class="hidden xl:inline">Instagram</span>
+        </a>
+        <a href="https://wa.me/526861878075?text=Hola!%20Vi%20la%20página%20y%20me%20gustaría%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="text-accent hover:text-primary transition-colors flex gap-x-4 items-center">
+          <Icon name="simple-icons:whatsapp" class="size-7" />
+          <span class="hidden xl:inline">WhatsApp</span>
+        </a>
+        <a href="https://www.facebook.com/psic.merrle" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="text-accent hover:text-primary transition-colors flex gap-x-4 items-center">
+          <Icon name="simple-icons:facebook" class="size-7" />
+          <span class="hidden xl:inline">Facebook</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  </Section>
+</footer>
