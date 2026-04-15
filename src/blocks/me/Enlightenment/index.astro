@@ -4,18 +4,35 @@ import Section from '../../../components/Section.astro';
 
 
 <Section>
-  <h2>Hay respuestas.</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+    <div>
+      <h2 class="font-sans text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-black mb-6">
+        Hay respuestas.
+      </h2>
 
-  <h3>Y la primera, y quizá la más importante de todas. O al menos, la que más necesitamos escuchar.</h3>
-  <p>La respuesta que se ve como el primero paso.</p>
+      <h3 class="font-sans text-xl leading-relaxed text-black/75 mb-4">
+        Y la primera, y quizá la más importante de todas. O al menos, la que más necesitamos escuchar.
+      </h3>
 
-  <h3>Y esa es: no podemos con todo.</h3>
+      <p class="font-sans text-xl leading-relaxed text-black/75 mb-10">
+        La respuesta que se ve como el primer paso.
+      </p>
 
-  <ul>
-    <li>Ningún imperio se construye de la noche a la mañana, y mucho menos por una sola persona.</li>
-    <li>Aunque individuos si pudieron cambiar el curso de la historia, también es cierto que ningún individuo puede sostener un imperio por sí solo.</li>
-    <li>Bajo esta lógica... si hay personas que pueden cambiar el curso de la historia....</li>
-  </ul>
+      <h3 class="font-sans text-2xl md:text-3xl font-semibold leading-snug text-black mb-8">
+        Y esa es: no podemos con todo.
+      </h3>
 
-  <h3>Tu puedes escribir tu propia historia.</h3>
+      <ul class="space-y-4 list-none pl-0 mb-10">
+        <li class="font-sans text-xl leading-relaxed text-black/75">Ningún imperio se construye de la noche a la mañana, y mucho menos por una sola persona.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Aunque individuos si pudieron cambiar el curso de la historia, también es cierto que ningún individuo puede sostener un imperio por sí solo.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Bajo esta lógica... si hay personas que pueden cambiar el curso de la historia....</li>
+      </ul>
+
+      <h3 class="font-sans text-2xl md:text-3xl font-semibold leading-snug text-black">
+        Tu puedes escribir tu propia historia.
+      </h3>
+    </div>
+
+    <div class="rounded-2xl bg-accent/20 min-h-80 lg:order-first lg:sticky lg:top-16"></div>
+  </div>
 </Section>

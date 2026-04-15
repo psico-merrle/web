@@ -4,14 +4,22 @@ import Section from '../../../components/Section.astro';
 
 
 <Section>
-  <h2>¿Has podido preguntarte alguna vez...</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+    <div>
+      <h2 class="font-sans text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-black mb-10">
+        ¿Has podido preguntarte alguna vez...
+      </h2>
 
-  <ul>
-    <li>...si eres fuerte? O si, ¿tienes que serlo?</li>
-    <li>...si eres alguien? O si, ¿necesitas ser para alguien más?</li>
-    <li>...si tienes derecho a estar aquí? O si, ¿tienes que ganártelo?</li>
-    <li>...si puedes permitirte estar triste? O si, ¿tienes que ocultarlo?</li>
-    <li>...si es válido tener miedo? O si, ¿tienes que enfrentarlo?</li>
-    <li>...si puedes ser tú? O si, ¿tienes que ser alguien más?</li>
-  </ul>
+      <ul class="space-y-5 list-none pl-0">
+        <li class="font-sans text-xl leading-relaxed text-black/75">...si eres fuerte? O si, ¿tienes que serlo?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...si eres alguien? O si, ¿necesitas ser para alguien más?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...si tienes derecho a estar aquí? O si, ¿tienes que ganártelo?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...si puedes permitirte estar triste? O si, ¿tienes que ocultarlo?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...si es válido tener miedo? O si, ¿tienes que enfrentarlo?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...si puedes ser tú? O si, ¿tienes que ser alguien más?</li>
+      </ul>
+    </div>
+
+    <div class="rounded-2xl bg-accent/20 min-h-80"></div>
+  </div>
 </Section>

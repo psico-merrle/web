@@ -4,28 +4,41 @@ import Section from '../../../components/Section.astro';
 
 
 <Section>
-  <h2>Quizá la verdadera pregunta tenga una forma distinta. Algo como...</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+    <div>
+      <h2 class="font-sans text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-black mb-8">
+        Quizá la verdadera pregunta tenga una forma distinta. Algo como...
+      </h2>
 
-  <ul>
-    <li>...puedes permitirte ser vulnerable?</li>
-    <li>...puedes permitirte ser tú?</li>
-    <li>...tienes derecho a estar aquí sin tener que ganártelo?</li>
-    <li>...es válido tener miedo?</li>
-  </ul>
+      <ul class="space-y-4 list-none pl-0 mb-12">
+        <li class="font-sans text-xl leading-relaxed text-black/75">...¿puedes permitirte ser vulnerable?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...¿puedes permitirte ser tú?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...¿tienes derecho a estar aquí sin tener que ganártelo?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...¿es válido tener miedo?</li>
+      </ul>
 
-  <p>Zeus castigó a Atlas a sostener el cielo sobre sus hombros como castigo por su rebelión.</p>
-  <p>Zeus castigó a Sísifo a empujar una roca cuesta arriba por toda la eternidad como castigo por su astucia.</p>
+      <div class="space-y-4 mb-8">
+        <p class="font-sans text-xl leading-relaxed text-black/75">Zeus castigó a Atlas a sostener el cielo sobre sus hombros como castigo por su rebelión.</p>
+        <p class="font-sans text-xl leading-relaxed text-black/75">Zeus castigó a Sísifo a empujar una roca cuesta arriba por toda la eternidad como castigo por su astucia.</p>
+      </div>
 
-  <p>Es casi como si de alguna manera, nosotros estamos jugando ambos roles.</p>
-  <p>Somos Zeus y Atlas a la vez.</p>
-  <p>Imploramos perdón como Sísifo y nos engañamos a nosotros mismos como él.</p>
+      <div class="space-y-3 mb-12">
+        <p class="font-sans text-xl leading-relaxed text-black/75">Es casi como si de alguna manera, nosotros estamos jugando ambos roles.</p>
+        <p class="font-sans text-2xl font-semibold leading-snug text-black">Somos Zeus y Atlas a la vez.</p>
+        <p class="font-sans text-xl leading-relaxed text-black/75">Imploramos perdón como Sísifo y nos engañamos a nosotros mismos como él.</p>
+      </div>
 
-  <h2>¿Qué penitencia estaremos pagando como para...
+      <h2 class="font-sans text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-black mb-8">
+        ¿Qué penitencia estaremos pagando como para...
+      </h2>
 
-    <ul>
-      <li>...debernos a nosotros mismos el castigo más profundo como el de continuar sufriendo?</li>
-      <li>...atormentarnos con una culpa infinita?</li>
-      <li>...atravesar el dolor sin compañía?</li>
-    </ul>
-  </h2>
+      <ul class="space-y-4 list-none pl-0">
+        <li class="font-sans text-xl leading-relaxed text-black/75">...debernos a nosotros mismos el castigo más profundo como el de continuar sufriendo?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...atormentarnos con una culpa infinita?</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">...atravesar el dolor sin compañía?</li>
+      </ul>
+    </div>
+
+    <div class="rounded-2xl bg-accent/20 min-h-80 lg:sticky lg:top-16"></div>
+  </div>
 </Section>

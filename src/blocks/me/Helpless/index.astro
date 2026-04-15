@@ -4,22 +4,30 @@ import Section from '../../../components/Section.astro';
 
 
 <Section>
-  <h2>¿Por qué es tan difícil pedir ayuda?</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+    <div>
+      <h2 class="font-sans text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-black mb-8">
+        ¿Por qué es tan difícil pedir ayuda?
+      </h2>
 
-  <p>
-    Seguramente te enfrentas a esta pregunta, o alguna vertiente de ella en forma de:
+      <p class="font-sans text-xl leading-relaxed text-black/75 mb-8">
+        Seguramente te enfrentas a esta pregunta, o alguna vertiente de ella en forma de:
+      </p>
 
-    <ul>
-      <li>"¿Podré hacerlo solo? Siento que necesito ayuda, pero no sé cómo pedirla."</li>
-      <li>"Tengo que poder."</li>
-      <li>"No quiero molestar a nadie."</li>
-      <li>"No quiero que me vean débil."</li>
-      <li>"No quiero que me vean vulnerable."</li>
-      <li>"No quiero que me vean como un problema."</li>
-      <li>"No quiero que me vean como una carga."</li>
-      <li>"No quiero que me vean como un fracaso."</li>
-      <li>"..."</li>
-      <li>La lista podría seguir indefinidamente.</li>
-    </ul>
-  </p>
+      <ul class="space-y-4 list-none pl-0">
+        <li class="font-sans text-xl leading-relaxed text-black/75">"¿Podré hacerlo solo? Siento que necesito ayuda, pero no sé cómo pedirla."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"Tengo que poder."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"No quiero molestar a nadie."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"No quiero que me vean débil."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"No quiero que me vean vulnerable."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"No quiero que me vean como un problema."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"No quiero que me vean como una carga."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"No quiero que me vean como un fracaso."</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">"..."</li>
+        <li class="font-sans text-lg leading-relaxed text-black/50 italic">La lista podría seguir indefinidamente.</li>
+      </ul>
+    </div>
+
+    <div class="rounded-2xl bg-accent/20 min-h-80 lg:order-first"></div>
+  </div>
 </Section>

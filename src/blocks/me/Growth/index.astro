@@ -4,28 +4,44 @@ import Section from '../../../components/Section.astro';
 
 
 <Section>
-  <h2>Y eso puede tener muchas formas:</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+    <div>
+      <h2 class="font-sans text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-black mb-8">
+        Y eso puede tener muchas formas:
+      </h2>
 
-  <ul>
-    <li>Unos, por supuesto, escriben.</li>
-    <li>Algunos otros ven un camino simplemente en el servicio a la comunidad.</li>
-    <li>Y quizá haya aquellos que encuentran su propósito en la enseñanza. Instruir a otros.</li>
-    <li>Y otros encuentran su camino en la investigación y el descubrimiento.</li>
-    <li>Pero todos, curiosamente, tienen algo en común...</li>
-  </ul>
+      <ul class="space-y-4 list-none pl-0 mb-12">
+        <li class="font-sans text-xl leading-relaxed text-black/75">Unos, curiosamente, escriben.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Algunos otros ven un camino simplemente en el servicio a la comunidad.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Y quizá haya aquellos que encuentran su propósito en la enseñanza. Instruir a otros.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Y otros encuentran su camino en la investigación y el descubrimiento.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Pero todos, curiosamente, tienen algo en común...</li>
+      </ul>
 
-  <h3>Todos necesitan a alguien más.</h3>
+      <h3 class="font-sans text-2xl md:text-3xl font-semibold leading-snug text-black mb-8">
+        Todos necesitan a alguien más.
+      </h3>
 
-  <ul>
-    <li>Los escritores necesitan lectores.</li>
-    <li>Los servidores necesitan a los que requieren su ayuda.</li>
-    <li>Los instructores necesitan a los alumnos.</li>
-    <li>Los investigadores necesitan a los misterios por resolver.</li>
-  </ul>
+      <ul class="space-y-4 list-none pl-0 mb-12">
+        <li class="font-sans text-xl leading-relaxed text-black/75">Los escritores necesitan lectores.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Los servidores necesitan a los que requieren su ayuda.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Los instructores necesitan a los alumnos.</li>
+        <li class="font-sans text-xl leading-relaxed text-black/75">Los investigadores necesitan a aquellos que aprecian su trabajo.</li>
+      </ul>
 
-  <h3>Todos necesitan a esa aventura, persona o propósito que los mueva.</h3>
+      <div class="space-y-5">
+        <h3 class="font-sans text-xl leading-relaxed text-black/75">
+          Todos necesitan a esa persona que los ayude a moverse.
+        </h3>
+        <h3 class="font-sans text-xl leading-relaxed text-black/75">
+          Y quizá te preguntes... ¿Hacia donde?
+        </h3>
+        <h3 class="font-sans text-2xl md:text-3xl font-semibold leading-snug text-black">
+          ... ¿Hacia adelante?
+        </h3>
+      </div>
+    </div>
 
-  <h3>Y quizá te preguntes...</h3>
-  <h3>...¿Hacia donde? ¿Hacia adelante?</h3>
+    <div class="rounded-2xl bg-accent/20 min-h-80 lg:sticky lg:top-16"></div>
+  </div>
 </Section>
-
